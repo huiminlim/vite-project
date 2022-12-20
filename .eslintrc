@@ -1,0 +1,14 @@
+{
+  // Rules to enforce in lint
+  "rules": {
+    "quotes": "error"
+  },
+  "env": {
+    // ESLint will not throw errors related to browsers
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  }
+}
